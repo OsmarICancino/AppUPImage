@@ -1,5 +1,5 @@
 # AppUPImage
-Android project to Upload Image to Server in Base64 using Volley Request 
+Android project to Upload Image to Server Ruby on Rails in Base64 using Volley Request
 
 This project contains some examples of coding guidelines for create a Android Client to upload image to Server in Base64.
 
@@ -32,3 +32,4 @@ Osmar I. Cancino Díaz - <o.cancinodiaz@gmail.com>
        src="https://github.com/OsmarICancino/AppUPImage/blob/master/app/src/main/res/drawable/fb_icon.png" />
 </a>
 
+#RubyOnRails #Android #Java #Volley
