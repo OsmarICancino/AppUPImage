@@ -1,18 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.dalvik.appupimage.MainActivity">
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Selecciona una Imagen"
+        android:id="@+id/buttonChoose" />
 
-</android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="10dp"/>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:hint="Introduce un nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir Imagen"
+        android:id="@+id/buttonUpload" />
+
+
+</LinearLayout>
